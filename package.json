@@ -5,7 +5,7 @@
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "vite build",
+    "build": "vite build --base=/interval-timer/",
     "preview": "vite preview"
   },
   "devDependencies": {
