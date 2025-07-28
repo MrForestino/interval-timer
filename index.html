@@ -7,7 +7,29 @@
     <title>Vite App</title>
   </head>
   <body>
-    <div id="app"></div>
+    <div id="app">
+
+      <div class="boxContainer">
+         <div class="box" id="box1"></div>
+        <div class="box" id="box2"></div>
+      </div>
+
+      <button id='BtnStart'>Start</button>
+      <button id='BtnStop'>Stop</button>
+
+      <div class="game">
+        <button id="startBtn">Старт гри</button>
+        <div id="gameArea"></div>
+        <p>Очки: <span id="score">0</span></p>
+        <p>Час: <span id="time">10</span> сек</p>
+      </div>
+
+      <div class="timer">
+        <input type="number" id="timeInput" placeholder="Введіть час у секундах" />
+        <button id="BtnStartt">Старт</button>
+        <p id="message"></p>
+      </div>
+    </div>
     <script type="module" src="/src/main.js"></script>
   </body>
 </html>
